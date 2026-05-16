@@ -396,7 +396,7 @@ footer{
 
     <h2>Projects</h2>
 
-    <div class="project">
+    <!-- <div class="project">
 
         <h3>Data Analysis Projects</h3>
 
@@ -406,12 +406,12 @@ footer{
         </p>
 
     </div>
-
+ -->
     <!-- PROJECT 1 -->
 
     <div class="subproject">
 
-        <h3>Sales Analysis Dashboard</h3>
+        <h3>Sales Analysis</h3>
 
         <p>
             Developed a dynamic sales analysis dashboard
@@ -454,6 +454,78 @@ footer{
         </div>
 
         <a href="https://github.com/alfygeorge03/students_mark_analysis.git"
+        class="btn" target="_blank">
+            View Project
+        </a>
+
+    </div>
+
+</section>
+
+<!-- Next Projects -->
+
+<section id="projects">
+
+    <!-- <h2>Projects</h2> -->
+
+    <!-- <div class="project">
+
+        <h3>Data Analysis Projects</h3>
+
+        <p>
+            Interactive dashboards and business analysis
+            projects using Microsoft Excel.
+        </p>
+
+    </div>
+ -->
+    <!-- PROJECT 3 -->
+
+    <!-- <div class="subproject">
+
+        <h3>Sales Analysis Dashboard</h3>
+
+        <p>
+            Developed a dynamic sales analysis dashboard
+            using Microsoft Excel to analyze trends,
+            KPIs, reports, and business performance.
+        </p>
+
+        <div class="tags">
+            <span>Excel</span>
+            <span>Dashboard</span>
+            <span>Analytics</span>
+        </div>
+
+        <a href="https://github.com/alfygeorge03/sales_data_analysias.git"
+        class="btn"  target="_blank">
+            View Project
+        </a>
+ -->
+    <!-- </div> -->
+
+    <!-- PROJECT 2 -->
+
+    <div class="subproject">
+
+        <h3>Employment Management System (CodeIgniter)</h3>
+
+        <p>
+            This project includes a secure login system with session management, ensuring authenticated access for administrators. After login, users are directed to a responsive dashboard that provides an overview of employee records and system activities.
+
+            
+        </p>
+
+        <div class="tags">
+            <span>CodeIgniter</span>
+            <span>PHP</span>
+            <span>My SQL</span>
+            <span>DataTable</span>
+            <span>Reports in Pdf And Excel</span>
+            <span>Visualization</span>
+        </div>
+
+        <a href="https://github.com/alfygeorge03/employment_management_system"
         class="btn" target="_blank">
             View Project
         </a>
