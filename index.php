@@ -4,10 +4,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:image" content="uploads/thumbnail/thumbnail.png">
+<meta property="og:title" content="Alfy George - AI-Assisted Software Developer">
+<meta property="og:description" content="Laravel, CodeIgniter, MySQL and Data Analysis Using MS Office">
 
 <title>Alfy George | Portfolio</title>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://w3.org viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 font-family=%22Arial%22 fill=%22blue%22>A</text></svg>">
-
+<link rel="icon" type="image/png" href="uploads/icons/favicon.png">
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
 
