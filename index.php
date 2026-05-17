@@ -4,10 +4,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Alfy George Portfolio">
+<meta property="og:description" content="AI Assisted PHP Developer | Laravel | CodeIgniter | MySQL | Data Analysis">
 <meta property="og:image" content="https://alfygeorge-production.up.railway.app/thumbnail_new.png">
-<meta property="og:title" content="Alfy George - PHP Developer">
-<meta property="og:description" content="Laravel, CodeIgniter, MySQL and Web Application Developer">
-
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://alfygeorge-production.up.railway.app/">
 <title>Alfy George | Portfolio</title>
 <link rel="icon" type="image/png" href="favicon_64x64.ico">
 <link rel="stylesheet"
