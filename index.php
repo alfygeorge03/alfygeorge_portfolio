@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta property="og:image" content="thumbnail_new.png">
+<meta property="og:image" content="https://alfygeorge-production.up.railway.app/thumbnail_new.png">
 <meta property="og:title" content="Alfy George - PHP Developer">
 <meta property="og:description" content="Laravel, CodeIgniter, MySQL and Web Application Developer">
 
