@@ -10,7 +10,7 @@
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://alfygeorge-production.up.railway.app/">
+<meta property="og:url" content="https://alfygeorge-production.up.railway.app">
 <title>Alfy George | Portfolio</title>
 <link rel="icon" type="image/png" href="favicon_64x64.ico">
 <link rel="stylesheet"
