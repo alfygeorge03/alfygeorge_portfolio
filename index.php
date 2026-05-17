@@ -1,3 +1,17 @@
+<?php
+
+$request = $_SERVER['REQUEST_URI'];
+
+if ($request === '/favicon.png') {
+    readfile(__DIR__ . '/favicon.png');
+    exit;
+}
+
+if ($request === '/thumbnail.png') {
+    readfile(__DIR__ . '/thumbnail.png');
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
