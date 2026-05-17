@@ -1,29 +1,15 @@
-<?php
-
-$request = $_SERVER['REQUEST_URI'];
-
-if ($request === '/favicon.png') {
-    readfile(__DIR__ . '/favicon.png');
-    exit;
-}
-
-if ($request === '/thumbnail.png') {
-    readfile(__DIR__ . '/thumbnail.png');
-    exit;
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta property="og:image" content="thumbnail.png">
+<meta property="og:image" content="uploads/thumbnail.png">
 <meta property="og:title" content="Alfy George - AI-Assisted Software Developer">
 <meta property="og:description" content="Laravel, CodeIgniter, MySQL and Data Analysis Using MS Office">
 
 <title>Alfy George | Portfolio</title>
-<link rel="icon" type="image/png" href="favicon.png">
+<link rel="icon" type="image/png" href="https://ibb.co/LdybXQVm">
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
 
