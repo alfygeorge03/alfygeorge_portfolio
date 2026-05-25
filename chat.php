@@ -56,25 +56,37 @@ else{
 
 /* SAVE CHAT */
 
-$stmt = mysqli_prepare(
+// $stmt = mysqli_prepare(
 
-    $conn,
+//     $conn,
 
-    "INSERT INTO chats
-    (user_message, bot_response)
-    VALUES (?, ?)"
+//     "INSERT INTO chats
+//     (user_message, bot_response)
+//     VALUES (?, ?)"
 
-);
+// );
 
-mysqli_stmt_bind_param(
-    $stmt,
-    "ss",
-    $userMessage,
-    $botResponse
-);
+// mysqli_stmt_bind_param(
+//     $stmt,
+//     "ss",
+//     $userMessage,
+//     $botResponse
+// );
 
-mysqli_stmt_execute($stmt);
+// mysqli_stmt_execute($stmt);
 
+// echo $botResponse;
+
+$sql = "INSERT INTO chat_history (user_message, bot_response)
+VALUES (:user_message, :bot_response)";
+
+$stmt = $conn->prepare($sql);
+
+$stmt->execute([
+    ':user_message' => $userMessage,
+    ':bot_response' => $botResponse
+]);
 echo $botResponse;
+
 
 ?>
