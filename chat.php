@@ -86,7 +86,6 @@ $stmt->execute([
     ':user_message' => $userMessage,
     ':bot_response' => $botResponse
 ]);
-echo $botResponse;
 
 
 ?>
