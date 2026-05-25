@@ -1,22 +1,26 @@
 <?php
+
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-echo "PHP Working<br>";
+try {
 
+    $conn = new PDO(
+        "mysql:host=" . getenv('MYSQLHOST') .
+        ";port=" . getenv('MYSQLPORT') .
+        ";dbname=" . getenv('MYSQLDATABASE'),
 
-$conn = new mysqli(
-    getenv('MYSQLHOST'),
-    getenv('MYSQLUSER'),
-    getenv('MYSQLPASSWORD'),
-    getenv('MYSQLDATABASE'),
-    getenv('MYSQLPORT')
-);
+        getenv('MYSQLUSER'),
+        getenv('MYSQLPASSWORD')
+    );
 
-if ($conn->connect_error) {
-    die("Connection failed");
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+    echo "Database Connected";
+
+} catch(PDOException $e) {
+
+    die($e->getMessage());
+
 }
-
-echo "Database Connected";
-
 ?>
