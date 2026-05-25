@@ -8,6 +8,8 @@ $port = getenv('MYSQLPORT');
 $dbname = getenv('MYSQLDATABASE');
 $user = getenv('MYSQLUSER');
 $pass = getenv('MYSQLPASSWORD');
+echo getenv('MYSQLDATABASE');
+exit;
 
 try {
 
