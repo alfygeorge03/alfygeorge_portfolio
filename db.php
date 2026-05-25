@@ -8,8 +8,8 @@ $port = getenv('MYSQLPORT');
 $dbname = getenv('MYSQL_DATABASE');
 $user = getenv('MYSQLUSER');
 $pass = getenv('MYSQLPASSWORD');
-echo getenv('MYSQL_DATABASE')."fdf";
-exit;
+
+
 
 try {
 
