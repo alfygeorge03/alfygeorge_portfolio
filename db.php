@@ -3,15 +3,18 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
+$host = getenv('MYSQLHOST');
+$port = getenv('MYSQLPORT');
+$dbname = getenv('MYSQLDATABASE');
+$user = getenv('MYSQLUSER');
+$pass = getenv('MYSQLPASSWORD');
+
 try {
 
     $conn = new PDO(
-        "mysql:host=" . getenv('MYSQLHOST') .
-        ";port=" . getenv('MYSQLPORT') .
-        ";dbname=" . getenv('MYSQLDATABASE'),
-
-        getenv('MYSQLUSER'),
-        getenv('MYSQLPASSWORD')
+        "mysql:host=$host;port=$port;dbname=$dbname",
+        $user,
+        $pass
     );
 
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -20,7 +23,7 @@ try {
 
 } catch(PDOException $e) {
 
-    die($e->getMessage());
+    die("Connection failed: " . $e->getMessage());
 
 }
 ?>
