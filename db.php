@@ -5,10 +5,10 @@ ini_set('display_errors', 1);
 
 $host = getenv('MYSQLHOST');
 $port = getenv('MYSQLPORT');
-$dbname = getenv('MYSQLDATABASE');
+$dbname = getenv('MYSQL_DATABASE');
 $user = getenv('MYSQLUSER');
 $pass = getenv('MYSQLPASSWORD');
-echo getenv('MYSQLDATABASE');
+echo getenv('MYSQL_DATABASE')."fdf";
 exit;
 
 try {
