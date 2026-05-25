@@ -77,7 +77,7 @@ else{
 
 // echo $botResponse;
 
-$sql = "INSERT INTO chat_history (user_message, bot_response)
+$sql = "INSERT INTO chats (user_message, bot_response)
 VALUES (:user_message, :bot_response)";
 
 $stmt = $conn->prepare($sql);
