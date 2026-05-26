@@ -9,8 +9,14 @@
 <meta property="og:image" content="https://alfygeorge-production.up.railway.app/thumbnail_new.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/png">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://alfygeorge-production.up.railway.app">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Alfy George Portfolio">
+<meta name="twitter:description" content="AI Assisted PHP Developer | Laravel | CodeIgniter | MySQL | Data Analysis">
+<meta name="twitter:image" content="https://alfygeorge-production.up.railway.app/thumbnail_new.png">
 <title>Alfy George | Portfolio</title>
 <link rel="icon" type="image/png" href="favicon_64x64.ico">
 <link rel="stylesheet"
