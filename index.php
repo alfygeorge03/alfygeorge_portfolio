@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:title" content="Alfy George Portfolio">
 <meta property="og:description" content="AI Assisted PHP Developer | Laravel | CodeIgniter | MySQL | Data Analysis">
-<meta property="og:image" content="https://alfygeorge-production.up.railway.app/thumbnail_new.png?v=3">
+<meta property="og:image" content="https://alfygeorge-production.up.railway.app/thumbnail_new.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:type" content="image/png">
